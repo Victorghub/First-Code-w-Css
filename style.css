@@ -1,16 +1,24 @@
-.red {
-    color: red;
+div {
+    background-color: red;
+    color: white;
+    font-size: 24px;
 }
 
-.blue {
-    color: blue;
+
+@media (max-width: 992px) {
+    div{
+        font-size: 20px;
+    }
 }
 
-p {
-    color: black;
+@media (max-width:576px) {
+div {
+    font-size: 16px;
+}
 }
 
-section {
-    height: 80vh;
-    border: 1px solid black;
+@media (max-width: 768px) {
+    div {
+        font-size: 10px;
+    }
 }
